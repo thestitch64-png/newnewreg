@@ -1,9 +1,7 @@
 services:
   - type: web
-    name: registration-form
+    name: php-registration-form
     env: docker
     plan: free
     dockerfilePath: ./Dockerfile
-    envVars:
-      - key: PORT
-        value: 8080
+
